@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+  <html lang="">
+    <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Fairy and Star</title>
+      <style> body {padding: 0; margin: 0;} </style>
+      <script src="matter.js"></script>
+      <script src="p5.js"></script>
+      <script src="p5.play.js"></script>
+      <script src="p5.sound.js"></script>
+
+      <!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/8.4.3/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.4.3/firebase-database.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyBFN4mGqGJfzpai0_2nnmGedWjGq7Isjhg",
+    authDomain: "quiz-game-735ce.firebaseapp.com",
+    databaseURL: "https://quiz-game-735ce-default-rtdb.firebaseio.com",
+    projectId: "quiz-game-735ce",
+    storageBucket: "quiz-game-735ce.appspot.com",
+    messagingSenderId: "552038429350",
+    appId: "1:552038429350:web:aa95d9277fc0f9e50e3a67"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+</script>
+
+      
+      <script src="Contestant.js"></script>
+      <script src="Question.js"></script>
+      <script src="Quiz.js"></script>
+
+
+    </head>
+    <body>
+      <script src="sketch.js"></script>
+    </body>
+  </html>
